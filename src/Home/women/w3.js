@@ -23,8 +23,8 @@ export default function ImgMediaCard() {
         <CardMedia
           component="img"
           alt="Contemplative Reptile"
-          height="180"
-          image="https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcSCksEA9fYVCsaah8F6GyB25Qvvyp1VjtJ8W7M593UAYzuR6hUWEtj0TbZLG3q-zMFlfPfuyp807JgPWA&usqp=CAc"
+          height="400"
+          image="https://thumbs.dreamstime.com/b/woman-back-rear-view-walking-red-dress-fluttering-wind-girl-blowing-waving-clothes-isolated-white-background-168558286.jpg"
           title="Contemplative Reptile"
         />
         <CardContent>

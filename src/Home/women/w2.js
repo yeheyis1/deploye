@@ -24,7 +24,7 @@ export default function ImgMediaCard() {
           component="img"
           alt="Contemplative Reptile"
           height="400"
-          image="https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcSCksEA9fYA&usqp=CAcVCsaah8F6GyB25Qvvyp1VjtJ8W7M593UAYzuR6hUWEtj0TbZLG3q-zMFlfPfuyhttps://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcRbSlPuN83M7hOq--lNIfuI1cJZdVGFrlqrSN8rpfqF69P1cf7zTLTKzolfAvZ2vLylOMnI7k02aaVs&usqp=CAcp807JgPWhttps://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcRbSlPuN83M7hOq--lNIfuI1cJZdVGFrlqrSN8rpfqF69P1cf7zTLTKzolfAvZ2vLylOMnI7k02aaVs&usqp=CAc"
+          image="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPMIOYZurx5JJAw7r4VOvmKhlyFiFCCnbHtQ&usqp=CAU"
           title="Contemplative Reptile"
         />
         <CardContent>

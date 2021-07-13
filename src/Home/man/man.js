@@ -1,9 +1,7 @@
 import React from 'react'
-import man from '../man/m1'
-import man from '../man/m2'
-import man from '../man/m3'
-import Header from '../Header/Header'
-import Footer from '../Footer/Footer'
+import M1 from '../man/m1'
+import M2 from '../man/m2'
+import M3 from '../man/m3'
 
 const man=()=> {
 return(
@@ -11,7 +9,7 @@ return(
 
 
 <div>
-<Header/>
+
 <div class="container">
   <div class="row">
     <div class="col-sm">
@@ -25,7 +23,7 @@ return(
     </div>
   </div>
 </div>
-<Footer/>
+
 </div>
   )
 

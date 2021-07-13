@@ -3,15 +3,15 @@ import {BrowserRouter, Route, Link } from "react-router-dom";
 
 import Home from '../src/Home/Home'
 import About from '../src/About/About'
-import contact from '../src/Contact/Contact'
+import Contact from '../src/Contact/Contact'
 import Header from '../src/Header/Header'
-import Body from '../body/body'
+import Body from '../src/body/body'
 import Footer from '../src/Footer/Footer'
-import Login from '../src/Login/Login'
-import signup from '../src/signup/signup'
-import kids from '../src/kids/kids'
-import Man from '../src/man/man'
-import women from '../src/women/women'
+import Login from '../src/Home/Login/Login'
+import Signup from '../src/Home/signup/signup'
+import Kids from '../src/Home/kids/kids'
+import Man from '../src/Home/man/man'
+import Women from '../src/Home/women/women'
 
 
 
@@ -20,14 +20,16 @@ class App extends  React.Component{
         return(
 
              <BrowserRouter>
+              <Header/>
              <Route exact path="/" component={Home} />
              <Route exact path="/about" component={About} />
              <Route exact path="/contact" component={Contact} />
              <Route exact path="/Login" component={Login} />
-             <Route exact path="/signup" component={signup} />
-             <Route exact path="/kids" component={kids} />
-             <Route exact path="/man" component={man} />
-             <Route exact path="/women" component={women} />
+             <Route exact path="/signup" component={Signup} />
+             <Route exact path="/kids" component={Kids} />
+             <Route exact path="/man" component={Man} />
+             <Route exact path="/women" component={Women} />
+             <Footer/>
              
              </BrowserRouter>
         )

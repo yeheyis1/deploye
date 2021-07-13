@@ -1,9 +1,8 @@
 import React from 'react'
-import kcard1 from '../kids/kcard1'
-import kcard2 from '../kids/kcard2'
-import kcard3 from '../kids/kcard3'
-import Header from '../../Header/Header'
-import Footer from  '../../Footer/Footer'
+import Kcard1 from '../kids/kcard1'
+import Kcard2 from '../kids/kcard2'
+import Kcard3 from '../kids/kcard3'
+
 
 
 const kids =()=> {
@@ -12,7 +11,7 @@ const kids =()=> {
 
 
         <div>
-          <Header/>
+        
             <div class="container">
   <div class="row">
     <div class="col-sm">
@@ -26,7 +25,7 @@ const kids =()=> {
     </div>
   </div>
 </div>
-<Footer/>
+
         </div>
 
     )
